@@ -26,9 +26,13 @@
 			};
 			}());
 			
+			console.log(myModule.privateVar);
+			console.log(myModule.publicVar);
+			console.log(myModule.tellSecret());
+			myModule.setSecret('my new secret');
+			console.log(myModule.tellSecret());
 		</script>
 	</head>
 	<body>
-		<h1>New Web Project Page</h1>
 	</body>
 </html>
